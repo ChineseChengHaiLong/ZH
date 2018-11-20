@@ -1,0 +1,26 @@
+
+前提是终端安装git  =>sudo apt-get install git
+
+1、echo "# ZH" >> README.md
+2、 git init
+3、git add README.md
+4、git commit -m "first commit"
+4.1、git config --global user.email "1324414435@qq.com"
+4.2、git config --global user.name "ChineseChengHaiLong"
+5、git commit -m "first commit"
+6、git remote add origin https://github.com/ChineseChengHaiLong/ZH.git
+7、git push -u origin master
+
+
+使用上传
+1、git add 文件名
+2、git commit -m '描述'
+3、git push -u origin master
+
+
+
+
+
+
+
+
