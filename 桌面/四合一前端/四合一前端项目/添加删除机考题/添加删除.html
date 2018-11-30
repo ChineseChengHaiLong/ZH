@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script type="text/javascript" src="js/vue.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+    <style type="text/css">
+    #app{
+        height: 200%;
+        margin-left: 30%;
+        width:50%;
+        text-align: center;
+        background-color: #f6f6f6;
+
+
+
+        }
+        .tab{
+            width: 600px;
+            margin-top: 30px;
+            background-color: #f6f6f6;
+            text-align: center;
+            /*margin-left: 120px;*/
+            margin-left: 30%;
+            width:50%;
+        }
+        input{
+            height: 25px;
+            margin-top: 10px;
+            border-radius:5px;
+
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="app">
+    <div class="createForm">
+
+        ID:<input type="text" name="id" v-model="ID">
+        品牌名字:<input type="text" name="pp" id="pp" v-model="pinpai">
+        日期:<input type="text" name="pps" id="pps" v-model="times">
+
+
+        {{selected}}
+
+        <button type="button" v-on:click="insertInfo">创建</button><hr>
+        搜索:<input type="text" name="ppss" id="ppss" v-model="timess">
+    </div>
+    <table class="tab">
+        <tr style="background-color: #f6f6f6">
+            <th>ID</th>
+            <th>品牌名字</th>
+            <th>日期</th>
+            <th>删除</th>
+        </tr>
+        <tr v-for="(person,index) in infoArr">
+            <td>{{person.id}}</td>
+            <td>{{person.pp}}</td>
+            <td>{{person.pps}}</td>
+
+            <td><button v-on:click="deleteInfo(index)">删除</button></td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+ new Vue({
+        el:"#app",
+        data:{
+            msg:"hello",
+            ID:'',
+            pinpai:'',
+            times:'',
+            infoArr:[]
+        },
+        methods:{
+        //添加数据的方法
+            insertInfo(){
+                var obj={};
+                obj.id=this.ID;
+                obj.pp=this.pinpai;
+                obj.pps=this.times;
+                this.infoArr.push(obj);
+                console.log(obj);
+            },
+            //删除的方法
+            deleteInfo(index){
+                this.infoArr.splice(index,1);
+            }
+        }
+    })
+
+</script>

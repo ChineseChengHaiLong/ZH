@@ -1,0 +1,17 @@
+{
+  "code":200,
+  "data":{
+    "name":"程海龙",
+    "age":18,
+    "info":
+    [
+      "male",
+      "student",
+      {
+        "front":["js","css","html"],
+        "back":["Python"]
+      }
+    ]
+  },
+  "msg":"成功"
+}

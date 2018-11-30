@@ -1,0 +1,207 @@
+/*列表页商品样式--------------------------------------------------------------*/
+.filter-list{
+    border: 1px solid #c0c0c0;
+    padding-bottom: 2em;
+
+}
+.filter-list .checkbox-inline{
+    margin-left: 0px;
+    margin-right: 10px;
+
+}
+.filter-list .checkbox-inline, .filter-list .radio-inline{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.product_info em{
+    font-style: normal;
+    display:block;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.product_info h4,.product_info em:hover{
+    color: red;
+}
+.product_info a{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 6px;
+}
+.modify-border{
+    border:0px ;
+}
+.modify-border:hover{
+    /*阴影偏移*/
+    box-shadow: #999 10px 10px 10px ;
+}
+
+
+/*购物车样式-*-**-*-*-----------------------------------------------------------------*/
+.add_info{
+    border-top: 2px solid #B1191A;
+    padding-bottom: 10px;
+}
+.ftx-green{
+    color: #71b247;
+}
+.ftx-green span{
+    vertical-align: top;
+}
+.claas-con{
+    padding-left: 0px;
+
+}
+.claas-con img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.also_buy{
+    margin-top: 2em;
+
+}
+.p-list{
+    padding: 0px;
+    list-style: none;
+
+}
+.best_product{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.best-img{
+    padding: 0px;
+
+}
+
+.best-img img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+    object-fit: none;
+
+}
+.p-name{
+    height: 54px;
+    line-height: 18px;
+    overflow: hidden;
+    margin: 4px 0;
+}
+
+.p-name a{
+    color: #333;
+    text-decoration: none;
+
+}
+
+.p-name a:hover{
+    color: #e4393c;
+}
+
+.p-list p{
+    color: #d91f20;
+    margin-bottom: 15px;
+}
+
+.p-list .btn-default:hover{
+    border-color: #e4393c;
+    background-color:#e4393c ;
+
+    color: #fff;
+
+}
+
+/*++++++++++++++++++++++++++++购物车结算+++++++++++++++++++++++++++++++++++++++*/
+
+.order_content{
+    height: 50px;
+    line-height: 50px;
+    background-color:#bce8f1;
+}
+.cart-main{
+    border-bottom: 2px solid #c5c5c5;
+}
+.p-img{
+    width: 60%;
+    border: 1px solid #f1f1f1;
+    margin-left: 20px;
+}
+.cart-item-list{
+    padding: 10px 0px ;
+    border: 1px solid #f1f1f1;
+
+}
+.cart-item-list p{
+    line-height: 20px;
+}
+.cart-item-list .form-control{
+    float: none;
+}
+.cart-toolbar{
+    margin: 20px 0px;
+    border: 1px solid #f1f1f1;
+    padding-right: 0px;
+}
+.order_right{
+    float: right;
+    width: 30%;
+
+}
+.irder_price em{
+    font-style: normal;
+    font-size: 20px;
+    color: #e4393c;
+    font-weight: bold;
+
+}
+.order_submit{
+    border: 0px;
+    background-color: #e54346;
+    float: right;
+    width: 45%;
+    color: #fff;
+    font-size: 18px;
+}
+.best_seller{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.best_seller h3{
+    width: 120px;
+    text-align: center;
+    color: #d9534f;
+    border-bottom: 2px solid #d9534f;
+    margin-top: 0px;
+    padding: 5px 0px ;
+
+
+}
+
+/*+++++++++++++++++++++结算页面+++++++++++++++++++++++++++++++++++++*/
+.main-order{
+    padding: 20px;
+    border: 1px solid #f1f1f1;
+
+}
+.order-product{
+    padding: 10px 0px;
+}
+
+.order-product img{
+    width: 60%;
+    border: 1px solid #f1f1f1;
+    margin-left: 15px;
+}
+.order-list{
+    line-height: 50px;
+
+}
+.order-one{
+    border-top: 1px solid #f1f1f1;
+    border-bottom:1px solid #f1f1f1 ;
+    margin: 20px 0px;
+    padding: 0px;
+}

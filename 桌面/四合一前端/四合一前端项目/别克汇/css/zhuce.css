@@ -1,0 +1,133 @@
+.shou{
+	width: 1000px;
+	height: 60px;
+	/*background-color: red;*/
+	margin:0 auto;
+	margin-top: 30px;
+}
+.shou ul{
+	list-style: none;
+}
+.yi{
+	width: 150px;
+	height: 60px;
+	margin:0 auto;
+	float: left;
+}
+.er{
+	width: 150px;
+	height: 60px;
+	margin:0 auto;
+	/*background-color: yellow;*/
+	text-align: center;
+	line-height: 60px;
+	font-size: 15px;
+	font-family: "华文行楷";
+	float: left;
+}
+.san{
+	width: 600px;
+	height: 60px;
+	margin:0 auto;
+	/*background-color: pink;*/
+	float: left;
+	text-align: center;
+	line-height: 60px;
+
+}
+.san a{
+	text-decoration: none;
+
+}
+.san a:hover{
+	color: red;
+}
+.tu{
+	width: 1500px;
+	height: 600px;
+	background-image: url(../img/login_bg.jpg);
+	margin:0 auto;
+	margin-top: 20px;
+}
+.kuang{
+	width: 400px;
+	height: 500px;
+	margin:0 auto;
+	background-color:#FFFFFF;
+	margin-top: 50px;
+	margin-left: 200px;
+	border:1px solid blue;
+
+
+	float: left;
+}
+
+.form{
+    margin-left:10%;
+    margin-top:10%;
+    background-color:white;
+    padding:10px;
+}
+.form-group{
+	margin-bottom: 20px;
+}
+.form-control{
+	width: 150px;
+}
+.form-control{
+	display: block;
+	width: 280px;
+	height: 20px;
+}
+span{
+	color:red;
+}
+.dengdi{
+	width: 1500px;
+	height: 150px;
+	position: relative;
+	margin:0 auto;
+	text-align: center;
+}
+.di4{
+	
+	top: 1000px;
+	left: 150px;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 60px;
+	margin-left: 360px;
+}
+.div4 ul{
+	text-align: center;
+}
+.di4 li{
+	display: inline-block;
+	font-size: 25px;
+	font-family:"华文行楷";
+	float: left;
+
+	
+	margin:0 auto;
+	margin-left: 20px;
+	
+
+}
+.di4 a{
+	color: #000000;
+	margin-right: 10px;
+	margin:0 auto;
+}
+.di4 a:hover{
+	color:red;
+}
+.ditu{
+	position: absolute;
+	top: 104px;
+	left: 427px;
+	font-size: 14px;
+	font-family:"华文行楷";
+	color: blue;
+	margin:0 auto;
+
+}
